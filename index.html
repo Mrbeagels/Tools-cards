@@ -20,22 +20,28 @@
     <link rel="stylesheet" href="public/assets/css/style.css">
     <!-- CDNfont -->
     <link href="http://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/membra" rel="stylesheet">
+
 </head>
 
 <body>
     <header class="container-fluid">
-        <div class="d-flex align-items-center w-100 mb-5">
-            <img class="logo" src="public/assets/img/logo_transparent.png"
-                alt="logo du site, carré gris, tools, make you a better dev'">
+        <div class="text-center mb-5">
+            <h1 class="text-light"><span class="text-light title" >Tools</span> <br> La connaissance à portée de clic</h1>
         </div>
-
+        <div class="d-flex justify-content-between pt-5 pb-5 ">
+            <span><a href="#general" target="_blank" class="btn btn-primary">Général</a></span>
+            <span><a href="#css" target="_blank" class="btn btn-danger">CSS</a></span>
+            <span><a href="#js" target="_blank" class="btn btn-warning">Javascript</a></span>
+            <span><a href="#seo" target="_blank" class="btn btn-success">Seo & référencement</a></span>
+        </div>
     </header>
 
     <main class="container-fluid">
         
                                                     <!-- GENERAL -->
         <div class=" d-flex justify-content-center text-center pb-3 my-5">
-            <div class="general d-flex justify-content-center align-items-center pb-5 fs-1"> <span class="generalColor" >G</span>énéral</div>
+            <div class="general d-flex justify-content-center align-items-center pb-5 fs-1" id="general"> <span class="generalColor" >G</span>énéral</div>
         </div>
 
 
@@ -43,8 +49,8 @@
                 <div class="card col-12 col-lg-3">
                     <a href="https://webcode.tools" target="_blank"> <img src="public/assets/img/webcode.png"
                             class="card-img-top" alt="illustration du site webcode"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgGlobal">
-                        <h5 class="card-title">WEBCODE</h5>
+                    <div class="card-body d-flex flex-column justify-content-around">
+                        <h5 class="card-title text-primary">WEBCODE</h5>
                         <p class="card-text">Génération automatique d'HTML, CSS, META TAG, ARTICLE ET AUTRES </p>
                         <a href="https://webcode.tools" target="_blank" class="btn btn-primary">webcode.com</a>
                     </div>
@@ -52,8 +58,8 @@
                 <div class="card col-12 col-lg-3">
                     <a href="https://www.svgrepo.com/" target="_blank"> <img src="public/assets/img/svgrepo.png"
                             class="card-img-top" alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgGlobal">
-                        <h5 class="card-title">SVGREPO</h5>
+                    <div class="card-body d-flex flex-column justify-content-around">
+                        <h5 class="card-title text-primary">SVGREPO</h5>
                         <p class="card-text">Plus de 300 000 SVG vectors et icons </p>
                         <a href="https://www.svgrepo.com/" target="_blank" class="btn btn-primary">svgrepo.com</a>
                     </div>
@@ -62,8 +68,8 @@
                     <a href="https://docs.emmet.io/cheat-sheet/" target="_blank"> <img
                             src="public/assets/img/emmetDoc.png" class="card-img-top"
                             alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgGlobal">
-                        <h5 class="card-title">EMMET DOCUMENTATION</h5>
+                    <div class="card-body d-flex flex-column justify-content-around ">
+                        <h5 class="card-title text-primary">EMMET DOCUMENTATION</h5>
                         <p class="card-text">Liste de raccourcis pratiques pour EMMET VSC </p>
                         <a href="https://docs.emmet.io/cheat-sheet/" target="_blank"
                             class="btn btn-primary">docs.emmet.io</a>
@@ -75,8 +81,8 @@
                     <a href="https://supunkavinda.blog/php/input-validation-with-php#:~:text=PHP%20has%20filter_var()%20function,on%20failure%20or%20invalid%20input.&text=We%20can%20simply%20validate%20an,()%20function%20and%20FILTER_VALIDATE_EMAIL%20flag"
                         target="_blank"> <img src="public/assets/img/validation.png" class="card-img-top"
                             alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgGlobal">
-                        <h5 class="card-title">VALIDATION DE CHAMPS</h5>
+                    <div class="card-body d-flex flex-column justify-content-around">
+                        <h5 class="card-title text-primary">VALIDATION DE CHAMPS</h5>
                         <p class="card-text">Aide a la validation d'email, url, integers etc</p>
                         <a href="https://supunkavinda.blog/php/input-validation-with-php#:~:text=PHP%20has%20filter_var()%20function,on%20failure%20or%20invalid%20input.&text=We%20can%20simply%20validate%20an,()%20function%20and%20FILTER_VALIDATE_EMAIL%20flag"
                             target="_blank" class="btn btn-primary">supunkavinda</a>
@@ -87,8 +93,8 @@
                     <a href="https://www.cdnfonts.com/raleway-5.font" target="_blank"> <img
                             src="public/assets/img/cdnfonts.png" class="card-img-top"
                             alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgGlobal">
-                        <h5 class="card-title">CDN FONTS</h5>
+                    <div class="card-body d-flex flex-column justify-content-around">
+                        <h5 class="card-title text-primary">CDN FONTS</h5>
                         <p class="card-text">Large choix de font à importer facilement vers notre projet</p>
                         <a href="https://www.cdnfonts.com/raleway-5.font" target="_blank" class="btn btn-primary">CDN
                             fonts</a>
@@ -98,8 +104,8 @@
                 <div class="card col-12 col-lg-3">
                     <a href="https://regex101.com/" target="_blank"> <img src="public/assets/img/Regex101.png"
                             class="card-img-top" alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgGlobal">
-                        <h5 class="card-title">REGEX-101</h5>
+                    <div class="card-body d-flex flex-column justify-content-around">
+                        <h5 class="card-title text-primary">REGEX-101</h5>
                         <p class="card-text">Création et test de REGEX</p>
                         <a href="https://regex101.com/" target="_blank" class="btn btn-primary">Regex101</a>
                     </div>
@@ -109,9 +115,9 @@
                 <div class="card col-12 col-lg-3">
                     <a href="https://turbologo.com/" target="_blank"> <img src="public/assets/img/turbologo.png"
                             class="card-img-top" alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgGlobal">
-                        <h5 class="card-title">TURBOLOGO</h5>
-                        <p class="card-text">Création d'un logo rapide et gratuit</p>
+                    <div class="card-body d-flex flex-column justify-content-around">
+                        <h5 class="card-title text-primary">TURBOLOGO</h5>
+                        <p class="card-text ">Création d'un logo rapide et gratuit</p>
                         <a href="https://turbologo.com/" target="_blank" class="btn btn-primary mb-3">turbologo.com</a>
                         <a href="https://hatchful.shopify.com/fr/" target="_blank" class="btn btn-primary">Alternative
                             gratuite -> hatchful </a>
@@ -121,8 +127,8 @@
                     <a href="https://twitter.com/guillaume_rygn/status/1560152785273880576" target="_blank"> <img
                             src="public/assets/img/illustration.png" class="card-img-top"
                             alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgGlobal">
-                        <h5 class="card-title ">Compilation de site d'illustration</h5>
+                    <div class="card-body d-flex flex-column justify-content-around">
+                        <h5 class="card-title text-primary">Compilation de site d'illustration</h5>
                         <p class="card-text">Voici 10 pépites d'internet 💎 pour un effet wahoo de vos illustrations
                             garanti ! 🤯, absurde, vectorielles, réaliste, il y en a pour tout les choix </p>
                         <a href="https://getcssscan.com/css-box-shadow-examples" target="_blank"
@@ -134,71 +140,71 @@
                                                                 <!-- CSS -->
 
             <div class=" d-flex justify-content-center text-center pb-3 my-5">
-                <div class="general d-flex justify-content-center align-items-center pb-5 fs-1"> <span class="cssColor">C</span>SS</div>
+                <div class="general d-flex justify-content-center align-items-center pb-5 fs-1" id="css"> <span class="cssColor">C</span>SS</div>
             </div>
 
             <div class="row justify-content-around mb-5">
-                <div class="card col-12 col-lg-3 border-danger">
+                <div class="card col-12 col-lg-3 ">
                     <a href="https://bennettfeely.com/clippy/" target="_blank"> <img
                             src="public/assets/img/bennettfeely.png" class="card-img-top"
                             alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgCss">
+                    <div class="card-body d-flex flex-column justify-content-around ">
                         <h5 class="card-title text-danger">REDIMENTION IMAGE CSS</h5>
-                        <p class="card-text text-danger">Redimention d'une image en css (triangle, trapeze, octogone ...
+                        <p class="card-text ">Redimention d'une image en css (triangle, trapeze, octogone ...
                             )</p>
                         <a href="https://bennettfeely.com/clippy/" target="_blank"
                             class="btn btn-danger">Bennettfeely</a>
                     </div>
                 </div>
-                <div class="card col-12 col-lg-3 border-danger">
+                <div class="card col-12 col-lg-3 ">
                     <a href="https://css-tricks.com/snippets/css/typewriter-effect/" target="_blank"> <img
                             src="public/assets/img/TypewriterEffect.png" class="card-img-top img-fluid"
                             alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgCss">
+                    <div class="card-body d-flex flex-column justify-content-around ">
                         <h5 class="card-title  text-danger">TYPEWRITER EFFECT</h5>
-                        <p class="card-text text-danger">Création d'un effet de machine a écrire en CSS</p>
+                        <p class="card-text ">Création d'un effet de machine a écrire en CSS</p>
                         <a href="https://css-tricks.com/snippets/css/typewriter-effect/" target="_blank"
                             class="btn btn-danger">css-tricks</a>
                     </div>
                 </div>
-                <div class="card col-12 col-lg-3 border border-danger">
+                <div class="card col-12 col-lg-3 border ">
                     <a href="https://cssgradient.io/" target="_blank"> <img src="public/assets/img/CSSgradient.png"
                             class="card-img-top" alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgCss">
+                    <div class="card-body d-flex flex-column justify-content-around ">
                         <h5 class="card-title text-danger">CSS GRADIENT</h5>
-                        <p class="card-text text-danger">Generateur de gradient CSS</p>
+                        <p class="card-text ">Generateur de gradient CSS</p>
                         <a href="https://cssgradient.io/" target="_blank" class="btn btn-danger">CSS gradient</a>
                     </div>
                 </div>
                 
             </div>
             <div class="row justify-content-around mb-5">
-                <div class="card col-12 col-lg-3 border-danger">
+                <div class="card col-12 col-lg-3">
                     <a href="https://getcssscan.com/css-box-shadow-examples" target="_blank"> <img
                             src="public/assets/img/boxshadow.png" class="card-img-top"
                             alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgCss">
-                        <h5 class="card-title  text-danger">BOX SHADOW CSS</h5>
-                        <p class="card-text text-danger">93 effets de box shadow différents en CSS</p>
+                    <div class="card-body d-flex flex-column justify-content-around ">
+                        <h5 class="card-title text-danger">BOX SHADOW CSS</h5>
+                        <p class="card-text ">93 effets de box shadow différents en CSS</p>
                         <a href="https://getcssscan.com/css-box-shadow-examples" target="_blank"
                             class="btn btn-danger">css-scan</a>
                     </div>
                 </div>
-                <div class="card col-12 col-lg-3 border-danger">
+                <div class="card col-12 col-lg-3">
                     <a href="https://www.cursor.cc/" target="_blank"> <img src="public/assets/img/curseur.png"
                             class="card-img-top" alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgCss">
+                    <div class="card-body d-flex flex-column justify-content-around ">
                         <h5 class="card-title text-danger">MODIFICATION DU CURSEUR</h5>
-                        <p class="card-text text-danger">Importation ou création d'un curseur pour souris</p>
+                        <p class="card-text ">Importation ou création d'un curseur pour souris</p>
                         <a href="https://www.cursor.cc/" target="_blank" class="btn btn-danger">Cursor.cc</a>
                     </div>
                 </div>
-                <div class="card col-12 col-lg-3 border-danger">
+                <div class="card col-12 col-lg-3 ">
                     <a href="https://tympanus.net/codrops/" target="_blank"> <img src="public/assets/img/codrops.png"
                             class="card-img-top" alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgCss">
+                    <div class="card-body d-flex flex-column justify-content-around">
                         <h5 class="card-title text-danger ">Codrop</h5>
-                        <p class="card-text text-danger">Codrops pour apprendre des effets toujours plus ambitieux. Ca va des
+                        <p class="card-text ">Codrops pour apprendre des effets toujours plus ambitieux. Ca va des
                             simples effets en HTML/CSS/Javascript à des trucs bien plus poussés aujourd'hui avec
                             Three.js et Webgl.
                             C'est vraiment de très très loin ma ressource préférée pour progresser dans le développement
@@ -207,28 +213,40 @@
                     </div>
                 </div>
             </div>
+            <div class="row justify-content-around mb-5">
+                <div class="card col-12 col-lg-3 ">
+                    <a href="https://www.fontsquirrel.com/" target="_blank"> <img src="public/assets/img/codrops.png"
+                            class="card-img-top" alt="illustration du site svgrepo"></a>
+                    <div class="card-body d-flex flex-column justify-content-around ">
+                        <h5 class="card-title text-danger ">Font Squirrel</h5>
+                        <p class="card-text ">Font Squirrel vous permet de récupérer des fonts facilement intégrable sur votre site internet, mais également et surtout, il vous permet d'upload une photo et il vous donne la font qui est utilisée par la ressource. Ne perdez plus votre temps à faire des recherches pour trouver la font parfaite </p>
+                        <a href="https://www.fontsquirrel.com/" target="_blank" class="btn btn-danger">Font Squirrel</a>
+                    </div>
+                </div>
+
+            </div>
                                                                 <!-- JS -->
 
             <div class=" d-flex justify-content-center text-center pb-3 my-5">
-                <div class="general d-flex justify-content-center align-items-center pb-5 fs-2"> <span class="jsColor fs-1" >J</span>AVASCRIPT</div>
+                <div class="general d-flex justify-content-center align-items-center pb-5 fs-2" id="js"> <span class="jsColor fs-1" >J</span>AVASCRIPT</div>
             </div>
             <div class="row justify-content-around mb-5">
-                <div class="card col-12 col-lg-3 border-warning">
+                <div class="card col-12 col-lg-3">
                     <a href="https://www.vantajs.com/" target="_blank"> <img src="public/assets/img/vantajs.png"
                             class="card-img-top" alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgJs">
+                    <div class="card-body d-flex flex-column justify-content-around">
                         <h5 class="card-title text-warning">EFFETS JS ET CSS</h5>
-                        <p class="card-text text-warning">Customisation d'un font d'écran en JS et CSS avec
+                        <p class="card-text ">Customisation d'un font d'écran en JS et CSS avec
                             interactivité</p>
                         <a href="https://www.vantajs.com/" target="_blank"
                             class="btn btn-warning text-light">vantajs</a>
                     </div>
                 </div>
-                <div class="card col-12 col-lg-3 border-warning">
+                <div class="card col-12 col-lg-3 ">
                     <a href="https://twitter.com/guillaume_rygn/status/1560533149112844289" target="_blank"> <img
                             src="public/assets/img/twitter2.png" class="card-img-top"
                             alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgJs">
+                    <div class="card-body d-flex flex-column justify-content-around ">
                         <h5 class="card-title text-warning">Compilation de site d'aide au code sous forme de Thread</h5>
                         <p class="card-text">J'adore en tant que développeur web 🧑‍💻 trouver des sites qui reduisent
                             drastiquement mon temps à coder ! ⏳ Voici une petite liste de site INCONNU mais pourtant
@@ -237,10 +255,10 @@
                             class="btn btn-warning">Le Thread</a>
                     </div>
                 </div>
-                <div class="card col-12 col-lg-3 border-warning">
+                <div class="card col-12 col-lg-3 ">
                     <a href="https://lottiefiles.com/" target="_blank"> <img src="public/assets/img/lottiefiles.png"
                             class="card-img-top" alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgJs">
+                    <div class="card-body d-flex flex-column justify-content-around ">
                         <h5 class="card-title text-warning">LottieFiles</h5>
                         <p class="card-text">Incroyable collection de d'animation, prête a l'emploi, du logo github, aux
                             princesses disney en passant par un pêcheur sur un lac, il y en a pour tout les goûts 🤯</p>
@@ -250,39 +268,39 @@
             </div>
                                                     <!-- SEO -->
             <div class=" d-flex justify-content-center text-center pb-3 my-5">
-                <div class="general d-flex justify-content-center align-items-center pb-5 fs-1"> <span class="seoColor " >S</span>EO</div>
+                <div class="general d-flex justify-content-center align-items-center pb-5 fs-1" id="seo"> <span class="seoColor " >S</span>EO</div>
             </div>
             <div class="row justify-content-around mb-5">
-                <div class="card col-12 col-lg-3 border-success">
+                <div class="card col-12 col-lg-3 ">
                     <a href="https://codewithguillaume.gumroad.com/l/twitter-header-bot" target="_blank"> <img
                             src="public/assets/img/twitter.png" class="card-img-top"
                             alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgSeo">
+                    <div class="card-body d-flex flex-column justify-content-around ">
                         <h5 class="card-title text-success">Twitter Header Bot</h5>
-                        <p class="card-text text-success">Customisation d'un font d'écran en JS et CSS avec
+                        <p class="card-text">Customisation d'un font d'écran en JS et CSS avec
                             interactivité</p>
                         <a href="https://codewithguillaume.gumroad.com/l/twitter-header-bot" target="_blank"
                             class="btn btn-success text-light">Twitter Header Bot</a>
                     </div>
                 </div>
-                <div class="card col-12 col-lg-3 border-success">
+                <div class="card col-12 col-lg-3 ">
                     <a href="https://developers.google.com/search/docs/advanced/robots/create-robots-txt?hl=fr"
                         target="_blank"> <img src="public/assets/img/robotsTXT.png" class="card-img-top"
                             alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgSeo">
+                    <div class="card-body d-flex flex-column justify-content-around ">
                         <h5 class="card-title text-success">ROBOTS.TXT</h5>
-                        <p class="card-text text-success">Création d'un robot.txt pour l'indéxation d'un site web dans
+                        <p class="card-text">Création d'un robot.txt pour l'indéxation d'un site web dans
                             les moteurs de recherches</p>
                         <a href="https://developers.google.com/search/docs/advanced/robots/create-robots-txt?hl=fr"
                             target="_blank" class="btn btn-success">Google search Central</a>
                     </div>
                 </div>
-                <div class="card col-12 col-lg-3 border-success">
+                <div class="card col-12 col-lg-3 ">
                     <a href="https://www.xml-sitemaps.com/" target="_blank"> <img src="public/assets/img/XML.png"
                             class="card-img-top" alt="illustration du site svgrepo"></a>
-                    <div class="card-body d-flex flex-column justify-content-around bgSeo">
+                    <div class="card-body d-flex flex-column justify-content-around ">
                         <h5 class="card-title text-success">XML-SITEMAPS</h5>
-                        <p class="card-text text-success">Création d'un xml</p>
+                        <p class="card-text">Création d'un xml</p>
                         <a href="https://www.xml-sitemaps.com/" target="_blank" class="btn btn-success">XML-SITEMAPS</a>
                     </div>
                 </div>
@@ -314,43 +332,7 @@
                         background="transparent" speed="1" style="width: 60px; height: 60px;" loop autoplay>
                     </lottie-player>
                 </a>
-            </section>
-            <!-- Section: Social media -->
-        </div>
-        <!--Grid row-->
-        </section>
-        <section class="font-monospace ">
-            <form class="m-5">
-                <div class="row my-5">
-                    <div class="col-md-6">
-                        <label for="nom" class="form-label">Nom</label>
-                        <input id="nom" class="form-control" type="text" name="" placeholder="Entrer votre nom">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="prenom" class="form-label">Prénom</label>
-                        <input id="prenom" class="form-control" type="text" name="" placeholder="Entrer votre prénom">
-                    </div>
-                </div>
-                <div class="row my-5">
-                    <div class="col-md-6">
-                        <label for="mail" class="form-label">Mail</label>
-                        <input id="mail" class="form-control" type="text" name="" placeholder="Entrer votre mail">
-                    </div>
-                </div>
-                <div class="row my-5">
-                    <div class="col-12">
-                        <label for="question" class="form-label">Posez moi votre question</label>
-                        <input id="question" class="form-control" type="text" name=""
-                            placeholder="Posez moi votre question">
-                    </div>
-                </div>
-                <div class="text-center">
-                    <a href="mailto:thibaud.marin1@gmail.com" class="btn btn-primary btn-lg active bi bi-send" tr data-toogle="tooltip"
-                        data-placement="top" title="Envoyer mon message et revenir a la page d'accueil" role="button"
-                        aria-pressed="true"> Envoyer</a>
-                </div>
-            </form>
-
+                <span class="btn"></span>
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
                 © 2022 Copyright : Thibaud Marin.
